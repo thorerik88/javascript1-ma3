@@ -10,8 +10,8 @@ It may seem insignificant, but it may cause poor readability and messy if not ta
 Eventually you develop a habit/code style.
 
 2. What is a Regular Expression?
-It's a "validation language".
-You can use it for things like searching and validation of a text/string.
+It's a sequence of characters that defines a search pattern.
+Usually used by string searching algorithms to "find/replace" operations for strings or validation.
 It has different character classes like \s for whitespace and \d for digits(there's a list of different ones).
 As I went through the regex course, I understood how powerful it can be.
 
@@ -33,7 +33,7 @@ for(let i=0;i<a.length;i = i+1){//do something}
 if (this value == something) {
   do this
 }
-// You should use === when validation equality.
+// You should use === when validating equality.
 
 7. What data types can a JSON object contain?
 strings(double quotes), numbers, objects(JSON), array, boolean, null
@@ -41,7 +41,7 @@ strings(double quotes), numbers, objects(JSON), array, boolean, null
 8. What is minifying JavaScript Code?
 It's when you remove excess whitespace, new lines and tabs.
 It reduces filesize, which makes load time quicker.
-
+After minifying a script, readability is very difficult.
 
 9. What is a global variable?
 It's a variable that can be accessed from anywhere in the script.
