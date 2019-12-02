@@ -3,19 +3,46 @@ JavaScript MA03
 Level 2
 
 1. In your own words, describe what JavaScript Code Style is.
+It's basically what how you choose to solve optional choices.
+Like: tabs/space, single/double quotes, space between operators etc.
+Choose to use squirrely brackets, even if you don't have to.
+It may seem insignificant, but it may cause poor readability and messy if not taken seriously.
+Eventually you develop a habit/code style.
 
 2. What is a Regular Expression?
+It's a "validation language".
+You can use it for things like searching and validation of a text/string.
+It has different character classes like \s for whitespace and \d for digits(there's a list of different ones).
+As I went through the regex course, I understood how powerful it can be.
 
 3. What does the .random() method do?
+It's used to output a random number, used with Math.random().
+Math.random() returns a random number between 0, and 1.
+It's mostly used with Math.floor, since the combination returns whole numbers.
 
 4. What does the .sort() method do?
+It's used with arrays, compares data and sorts in alphabetical order(strings) or in chronological (numbers).
 
 5. What does the .reverse() method do?
+It does the opposite of .sort().
 
 6. List two examples of bad JavaScript code.
+for(let i=0;i<a.length;i = i+1){//do something}
+// Poor readability
+
+if (this value == something) {
+  do this
+}
+// You should use === when validation equality.
 
 7. What data types can a JSON object contain?
+strings(double quotes), numbers, objects(JSON), array, boolean, null
 
 8. What is minifying JavaScript Code?
+It's when you remove excess whitespace, new lines and tabs.
+It reduces filesize, which makes load time quicker.
+
 
 9. What is a global variable?
+It's a variable that can be accessed from anywhere in the script.
+a variable in a function block, is NOT a global variable.

@@ -3,12 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style media="screen">form{display:block;width:10%;}</style>
     <title>JavaScript - MA03 - Question 1</title>
 </head>
 <body>
 
 <!--Contact Form-->
-
+<form action="index.html" method="get">
+  <label>First Name:</label>
+  <input type="name" name="firstName" value="">
+  <label>Last Name:</label>
+  <input type="name" name="lastName" value="">
+  <label>Phone Number:</label>
+  <input type="tel" name="phone" value="">
+  <label>Email Address:</label>
+  <input type="email" name="email" value="">
+  <input type="submit" name="submit" value="Send">
+</form>
+<div class="alert"></div>
 
 <script src="script.js"></script>
 </body>
